@@ -1,0 +1,8 @@
+main DSTACK_USAGE:24 DSTACK_LEVEL:24 FILE:"ATmega16_Calculator.c" LINE:151
+nonDigitKeyPress DSTACK_USAGE:1 DSTACK_LEVEL:25 FILE:"ATmega16_Calculator.c" LINE:119
+nonDigitKeyPress DSTACK_USAGE:1 DSTACK_LEVEL:26 FILE:"ATmega16_Calculator.c" LINE:119
+calculate DSTACK_USAGE:0 DSTACK_LEVEL:26 FILE:"ATmega16_Calculator.c" LINE:75
+pow DSTACK_USAGE:12 DSTACK_LEVEL:38 FILE:"G:\Program Files\cvavr\lib\math.lib" LINE:740
+exp DSTACK_USAGE:14 DSTACK_LEVEL:52 FILE:"G:\Program Files\cvavr\lib\math.lib" LINE:724
+floor DSTACK_USAGE:4 DSTACK_LEVEL:56 FILE:"G:\Program Files\cvavr\lib\math.lib" LINE:659
+ftrunc DSTACK_USAGE:4 DSTACK_LEVEL:60 FILE:"G:\Program Files\cvavr\lib\math.lib" LINE:544

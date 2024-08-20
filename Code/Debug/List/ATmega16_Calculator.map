@@ -1,0 +1,57 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+typeBuffer                                                                        0x0164      16
+promptStr                                                                         0x0174      16
+operand1                                                                          0x0184       4
+operand2                                                                          0x0188       4
+result                                                                            0x018C       4
+_base_y                                                                           0x0190       4
+_lcd_maxx                                                                         0x0194       1
+_seed                                                                             0x0195       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+typeIndex                                                                         R4,R5        2
+notTyped                                                                          R7           1
+operator                                                                          R6           1
+operand1IsNULL                                                                    R9           1
+hasDot                                                                            R8           1
+temp                                                                              R10,R11      2
+_lcd_x                                                                            R13          1
+_lcd_y                                                                            R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+trimDecimals                                                                      0x0008F     41
+clearTypeBuffer                                                                   0x000B8     22
+clearPromptLine                                                                   0x000CE     16
+clearTypeLine                                                                     0x000DE     20
+showPrompt                                                                        0x000F2     28
+calculate                                                                         0x0010E    127
+nonDigitKeyPress                                                                  0x0018D     68
+main                                                                              0x001D1    214
+_lcd_write_nibble_G100                                                            0x002A7     20
+_lcd_write_data                                                                   0x002BB     12
+lcd_gotoxy                                                                        0x002C7     13
+lcd_clear                                                                         0x002D4     12
+lcd_putchar                                                                       0x002E0     23
+lcd_puts                                                                          0x002F7     15
+lcd_putsf                                                                         0x00306     19
+lcd_init                                                                          0x00319     47
+ftoa                                                                              0x00348    199
+atof                                                                              0x0040F    252
+ftrunc                                                                            0x0050B     49
+floor                                                                             0x0053C     19
+log                                                                               0x0054F    132
+exp                                                                               0x005D3    146
+pow                                                                               0x00665     74
+isdigit                                                                           0x006AF      9
+isspace                                                                           0x006B8     11
+strcpyf                                                                           0x006C3     13
